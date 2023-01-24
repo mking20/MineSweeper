@@ -32,7 +32,7 @@ namespace Minesweeper
     
     public override void PlaceCell(WrapPanel MiPanel) 
     {
-      myPanel.Children.Add(cell);
+      MiPanel.Children.Add(cell);
     }
     
     public void CountMines (NumCell NoMine) {}
